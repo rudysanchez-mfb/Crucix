@@ -36,7 +36,7 @@ can see what moved.
 ## Quick Start
 
 ```bash
-git clone https://github.com/texas697/Crucix.git
+git clone https://github.com/rudysanchez-mfb/Crucix.git
 cd Crucix
 npm install
 cp .env.example .env     # add keys (see "API Keys Setup"); none are required to start
