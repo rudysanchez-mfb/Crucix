@@ -26,6 +26,9 @@ export function Layout({ vars, children }: LayoutProps) {
           {children}
           <footer className={CLASSES.footer}>
             <A className={CLASSES.footerLink} href="/mfb-think-tank">{appName}</A><A className={CLASSES.footerLink} href="/support">Support</A><A className={CLASSES.footerLink} href="/privacy">Privacy Policy</A><A className={CLASSES.footerLink} href="/terms">Terms of Service</A><A className={CLASSES.footerLink} href="/privacy#delete-account">Delete your account</A>
+            <div className={CLASSES.footerOperator}>
+              <A className={CLASSES.footerLink} href="https://labs.mfbservicesinc.com" rel="noopener">MFB Labs</A><A className={CLASSES.footerLink} href="https://github.com/rudysanchez-mfb" rel="noopener">GitHub</A><A className={CLASSES.footerLink} href="https://www.linkedin.com/in/rudy10sanchez/" rel="noopener">LinkedIn</A>
+            </div>
             <div className={CLASSES.footerCopy}>© {year} {operator}</div>
           </footer>
         </main>

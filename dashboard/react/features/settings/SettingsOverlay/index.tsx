@@ -5,6 +5,7 @@ import { CLASSES } from '../classes';
 import { SettingsActions } from './components/SettingsActions';
 import { SettingsFields } from './components/SettingsFields';
 import { SettingsHeader } from './components/SettingsHeader';
+import { SettingsLinks } from './components/SettingsLinks';
 import { useSettingsActions } from './hooks/useSettingsActions';
 import { useSettingsForm } from './hooks/useSettingsForm';
 import { STYLES } from './styles';
@@ -44,6 +45,7 @@ export function SettingsOverlay({
       <Box className={CLASSES.foot} sx={STYLES.foot}>
         Keys never leave the server unencrypted and are never written to logs or sweep files. Remove your key at any time.
       </Box>
+      <SettingsLinks />
     </Dialog>
   );
 }

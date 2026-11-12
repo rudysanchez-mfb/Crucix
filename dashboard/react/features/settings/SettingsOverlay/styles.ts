@@ -54,5 +54,7 @@ export const STYLES = {
   message: { fontFamily: FONT_MONO, fontSize: 10, lineHeight: 1.5, mt: '10px', minHeight: 14 },
   messageOk: { color: 'primary.main' },
   messageErr: { color: (theme) => theme.palette.crucix.danger },
-  foot: { p: '10px 16px 14px', borderTop: '1px solid', borderColor: 'divider', fontFamily: FONT_MONO, fontSize: 9, lineHeight: 1.5, color: (theme) => theme.palette.crucix.dim3 },
+  foot: { p: '10px 16px 10px', borderTop: '1px solid', borderColor: 'divider', fontFamily: FONT_MONO, fontSize: 9, lineHeight: 1.5, color: (theme) => theme.palette.crucix.dim3 },
+  links: { display: 'flex', flexWrap: 'wrap', gap: '4px 14px', p: '0 16px 14px', fontFamily: FONT_MONO, fontSize: 10 },
+  link: { color: (theme) => theme.palette.crucix.dim },
 } satisfies Record<string, SxProps<Theme>>;

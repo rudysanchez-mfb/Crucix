@@ -35,4 +35,5 @@
 .crucix-site-footer{margin-top:44px;padding-top:14px;border-top:1px solid var(--border);font-size:12px;color:var(--dim)}
 .crucix-site-footer-link{margin-right:14px}
 .crucix-site-footer-copy{margin-top:8px}
+.crucix-site-footer-operator{margin-top:8px}
 @media print{.crucix-site-page{background:#fff;color:#000}.crucix-site-title,.crucix-site-heading,.crucix-site-subheading,.crucix-site-strong,.crucix-site-header-cell{color:#000}.crucix-site-link{color:#000}.crucix-site-toc,.crucix-site-header-cell,.crucix-site-card,.crucix-site-details{background:none}}
