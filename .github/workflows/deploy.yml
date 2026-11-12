@@ -1,8 +1,8 @@
 name: Deploy to Cloud Run
 
-# Manual only, from main. The `production` environment keeps its required reviewers; `staging` has
-# none. Every value comes from per-environment GitHub `vars`, so a staging deploy never touches
-# production jobs, buckets or scheduler jobs.
+# Manual only, from main. Neither environment requires a reviewer (Rudy, 2026-11-12: approvals from the
+# old texas697 account defeated the point of agents deploying); `production` is still limited to `main`.
+# Every value comes from per-environment GitHub `vars`, so a staging deploy never touches production jobs, buckets or scheduler jobs.
 on:
   workflow_dispatch:
     inputs:
