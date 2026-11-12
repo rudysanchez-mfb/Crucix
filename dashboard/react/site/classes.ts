@@ -32,4 +32,5 @@ export const CLASSES = {
   footer: 'crucix-site-footer',
   footerLink: 'crucix-site-footer-link',
   footerCopy: 'crucix-site-footer-copy',
+  footerOperator: 'crucix-site-footer-operator',
 } as const;

@@ -28,4 +28,6 @@ export const CLASSES = {
   remove: 'crucix-settings-remove',
   message: 'crucix-settings-message',
   foot: 'crucix-settings-foot',
+  links: 'crucix-settings-links',
+  link: 'crucix-settings-link',
 } as const;
